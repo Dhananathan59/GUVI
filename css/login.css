@@ -1,0 +1,69 @@
+body{
+    position: relative;
+}
+input,
+label{
+    margin-top: 10px;
+}
+
+.form-box
+{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    border: 1px solid black;
+    text-align: center;
+    padding: 50px;
+    border-radius: 15px;
+    background-color: wheat;
+}
+
+.submit-button:hover{
+background-color: rgb(47, 137, 155);
+}
+.btn-margin
+{
+    margin-top: 10px;
+}
+#new{
+    margin-left: -110px;
+ 
+}
+#new1{
+    margin-left: -140px;
+}
+#sign{
+    margin-left: 20px;
+}
+#email{
+    border: 2px solid black;
+}
+#password{
+    border: 2px solid black;
+}
+#login-submit{
+    border: 2px solid black;
+    font-family: poppins;
+    font-weight: bolder;
+}
+#login-submit:hover{
+    background-color: black;
+    color: crimson;
+    border: 2px solid yellow;
+}
+#sign{
+    border: 2px solid black;
+    font-family: poppins;
+    font-weight: bolder;
+}
+#sign:hover{
+    background-color: black;
+    color: crimson;
+    border: 2px solid yellow;
+}
+img{
+    height:100vh;
+    width:100%;
+    background-size: cover;
+}
