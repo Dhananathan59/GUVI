@@ -1,0 +1,53 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    margin: auto;
+}
+/* pahe navigation*/
+body{
+    overflow-y:hidden;
+    
+
+}
+img{
+    width:100%;
+    height: 100vh;
+    background-size: cover;
+    
+
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    margin: 50px;
+    color:black ;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    font-weight: bolder;
+    font-size: 20px;
+   background-color:#ccd5ae;
+}
+nav ul{
+    display: flex;
+    align-items: center;  
+    
+}
+nav ul li{
+    padding: 5px;
+}
+nav ul:hover{
+    color:white;
+}
+.page-heading
+{
+font-size: xx-large;
+margin-left:50px;
+font-weight: bolder;
+}
